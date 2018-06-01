@@ -3,7 +3,6 @@ import edu.princeton.cs.introcs.StdDraw;
 public class main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		StdDraw.setXscale(0, 1000);/* INITIALISATION DE LA TAILLE DE LA FENETRE */
 		StdDraw.setYscale(0, 1000);
 		StdDraw.setPenColor(StdDraw.BLACK);

@@ -3,6 +3,8 @@ import edu.princeton.cs.introcs.StdDraw;
 public class main {
 
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StdDraw.setCanvasSize(1227,628);
 		StdDraw.setXscale(0, 1000);/* INITIALISATION DE LA TAILLE DE LA FENETRE */
 		StdDraw.setYscale(0, 1000);
 		StdDraw.setPenColor(StdDraw.BLACK);
@@ -34,37 +36,46 @@ public class main {
 			if (StdDraw.isMousePressed()) {
 				double i = StdDraw.mouseX();
 				double j = StdDraw.mouseY();
-				
+
 				if (450 < j && 550 > j && 450 < i && 550 > i) {
 					StdDraw.clear(StdDraw.WHITE);
-					StdDraw.text(500, 500, "2 joueurs");
-					choix2 =2;
+					choix2 = 2;
 					break;
 				} else if (350 < j && 450 > j && 450 < i && 550 > i) {
 					StdDraw.clear(StdDraw.WHITE);
-					StdDraw.text(500, 500, "3 joueurs");
 					choix2 = 3;
 					break;
 				} else if (250 < j && 350 > j && 450 < i && 550 > i) {
 					StdDraw.clear(StdDraw.WHITE);
-					StdDraw.text(500, 500, "4 joueurs");
 					choix2 = 4;
 					break;
-				}
-				else if (150 < j && 250 > j && 450 < i && 550 > i) {
+				} else if (150 < j && 250 > j && 450 < i && 550 > i) {
 					StdDraw.clear(StdDraw.WHITE);
-					StdDraw.text(500, 500, "5 joueurs");
 					choix2 = 5;
 					break;
-				}
-				else if (50 < j && 150 > j && 450 < i && 550 > i) {
+				} else if (50 < j && 150 > j && 450 < i && 550 > i) {
 					StdDraw.clear(StdDraw.WHITE);
-					StdDraw.text(500, 500, "6 joueurs");
 					choix2 = 6;
 					break;
 				}
 			}
 		}
+		switch (choix2) {
+		case 2:
+			StdDraw.picture(500,500,"carte.png");
+			break;
+		case 3:
+			StdDraw.text(500, 500, "3 joueurs");
+			break;
+		case 4:
+			StdDraw.text(500, 500, "4 joueurs");
+			break;
+		case 5:
+			StdDraw.text(500, 500, "5 joueurs");
+			break;
+		case 6:
+			StdDraw.text(500, 500, "6 joueurs");
+			break;
+		}
 	}
 }
-

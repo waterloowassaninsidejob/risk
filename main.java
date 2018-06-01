@@ -127,18 +127,106 @@ public class main {
 						break;
 					}
 					if (520 < i && 540 > i && 404 < j && 424 > j) {
-						
 						StdDraw.text(500, 200, "Congo");
 						break;
 					}
 					if (572 < i && 592 > i && 476 < j && 499 > j) {
-						
 						StdDraw.text(500, 200, "Ethiopie");
 						break;
 					}
 					if (440 < i && 460 > i && 538 < j && 558 > j) {
-						
 						StdDraw.text(500, 200, "Sahara");
+						break;
+					}
+					if (520 < i && 540 > i && 604 < j && 624 > j) {
+						StdDraw.text(500, 200, "Egypte");
+						break;
+					}
+					if (451 < i && 471 > i && 723 < j && 743 > j) {
+						StdDraw.text(500, 200, "France");
+						break;
+					}
+					if (840 < i && 860 > i && 212 < j && 232 > j) {
+						StdDraw.text(500, 200, "Perth");
+						break;
+					}
+					if (920 < i && 940 > i && 219 < j && 239 > j) {
+						StdDraw.text(500, 200, "Sydney");
+						break;
+					}
+					if (924 < i && 944 > i && 360 < j && 380 > j) {	
+						StdDraw.text(500, 200, "Nouvelle Calédonie");
+						break;
+					}
+					if (830 < i && 850 > i && 412 < j && 432 > j) {	
+						StdDraw.text(500, 200, "Indonésie");
+						break;
+					}if (766 < i && 786 > i && 649 < j && 669 > j) {	
+						StdDraw.text(500, 200, "Chine");
+						break;
+					}
+					if (709 < i && 729 > i && 575 < j && 595 > j) {	
+						StdDraw.text(500, 200, "Inde");
+						break;
+					}
+					if (573 < i && 593 > i && 669 < j && 689 > j) {	
+						StdDraw.text(500, 200, "Turquie");
+						break;
+					}
+					if (897 < i && 917 > i && 671 < j && 691 > j) {						
+						StdDraw.text(500, 200, "Japon");
+						break;
+					}
+					if (774 < i && 794 > i && 730 < j && 750 > j) {						
+						StdDraw.text(500, 200, "Mongolie");
+						break;
+					}
+					if (766 < i && 786 > i && 790 < j && 810 > j) {	
+						StdDraw.text(500, 200, "Irkusta");
+						break;
+					}
+					if (875 < i && 895 > i && 864 < j && 884 > j) {	
+						StdDraw.text(500, 200, "Kamchatka");
+						break;
+					}
+					if (782 < i && 802 > i && 864 < j && 884 > j) {	
+						StdDraw.text(500, 200, "Yakust");
+						break;
+					}
+					if (702 < i && 722 > i && 857 < j && 877 > j) {
+						StdDraw.text(500, 200, "Sibérie");
+						break;
+					}
+					if (644 < i && 664 > i && 834 < j && 854 > j) {	
+						StdDraw.text(500, 200, "Ural");
+						break;
+					}
+					if (652 < i && 672 > i && 731 < j && 751 > j) {	
+						StdDraw.text(500, 200, "Afghanistan");
+						break;
+					}
+					if (521 < i && 541 > i && 716 < j && 736 > j) {	
+						StdDraw.text(500, 200, "Grèce");
+						break;
+					}
+					if (421 < i && 441 > i && 790 < j && 810 > j) {	
+						StdDraw.text(500, 200, "Angleterre");
+						break;
+					}
+					if (402 < i && 422 > i && 842 < j && 862 > j) {	
+						StdDraw.text(500, 200, "Islande");
+						break;
+					}
+					if (494 < i && 514 > i && 857 < j && 877 > j) {	
+						StdDraw.text(500, 200, "Scandinavie");
+						break;
+					}
+					if (559 < i && 579 > i && 797 < j && 817 > j) {	
+						StdDraw.text(500, 200, "Russie");
+						break;
+					}
+					if (490 < i && 510 > i && 783 < j && 803 > j) {	
+						StdDraw.text(500, 200, "Allemagne");
 						break;
 					}
 				}

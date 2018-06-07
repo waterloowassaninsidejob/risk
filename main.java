@@ -65,57 +65,81 @@ public class main {
 
 		case 2:
 
-			StdDraw.picture(500, 500, "image/carte.png");
-			StdDraw.text(500, 100, "J1 veuillez regarder votre mission et placer vos armées");
 			int choix3 = 1;
-			StdDraw.setPenColor(178,190,181);
-			StdDraw.filledCircle(68, 885, 20);//Alaska
-			StdDraw.filledCircle(140, 885, 20);//Canada
-			StdDraw.filledCircle(125, 815, 20);//Montana
-			StdDraw.filledCircle(190, 810, 20);//Ontario
-			StdDraw.filledCircle(255, 805, 15);//Québec
-			StdDraw.filledCircle(240, 185, 15);//Argentine
-			StdDraw.filledCircle(237, 307, 15);//Pérou
-			StdDraw.filledCircle(284, 340, 20);//Brésil
-			StdDraw.filledCircle(223, 466, 20);//Vénézuela
-			StdDraw.filledCircle(530, 274, 20);//Afrique du Sud
-			StdDraw.filledCircle(610, 281, 15);//Madagascar
-			StdDraw.filledCircle(530, 414, 20);//Congo
-			StdDraw.filledCircle(582, 480, 20);//Ethiopie
-			StdDraw.filledCircle(450, 548, 20);//Sahara
-			StdDraw.filledCircle(530, 614, 20);//Egypte
-			StdDraw.filledCircle(461, 739, 15);//France
-			StdDraw.filledCircle(850,222,20);//Perth
-			StdDraw.filledCircle(930,229,18);//Sydney
-			StdDraw.filledCircle(934,380,15);//Nouvelle Calédonie
-			StdDraw.filledCircle(840,422,15);//Indonésie
-			StdDraw.filledCircle(776,659,20);//Chine
-			StdDraw.filledCircle(719,585,20);//Inde
-			StdDraw.filledCircle(588,669,20);//Turquie
-			StdDraw.filledCircle(907,681,15);//Japon
-			StdDraw.filledCircle(784,740,20);//Mongolie
-			StdDraw.filledCircle(776,800,20);//Irkusta
-			StdDraw.filledCircle(885,874,20);//Kamchatka
-			StdDraw.filledCircle(792,884,20);//Yakust
-			StdDraw.filledCircle(712,877,20);//Sibérie
-			StdDraw.filledCircle(654,844,20);//Ural
-			StdDraw.filledCircle(662,741,20);//Afghanistan
-			StdDraw.filledCircle(526,731,15);//Grèce
-			StdDraw.filledCircle(431,800,15);//Angleterre
-			StdDraw.filledCircle(412,862,15);//Islande
-			StdDraw.filledCircle(504,867,15);//Scandinavie
-			StdDraw.filledCircle(569,807,20);//Russie
-			StdDraw.filledCircle(500,793,15);//Allemagne
-			StdDraw.filledCircle(100,730,20);//West
-			StdDraw.filledCircle(180,700,20);//East
-			StdDraw.filledCircle(110,600,20);//Mexique
-			StdDraw.filledCircle(360,930,20);//Groënland
-			StdDraw.filledCircle(800,542,15);//Thaïlande
-
-			while (choix3 != 0) {
+			
+			  StdDraw.picture(500, 500, "image/carte.png");
+			  StdDraw.setPenColor(178,190,181); 
+			  StdDraw.filledCircle(68, 885, 20);//Alaska
+			  StdDraw.filledCircle(140, 885, 20);//Canada 
+			  StdDraw.filledCircle(125, 815, 20);//Montana 
+			  StdDraw.filledCircle(190, 810, 20);//Ontario
+			  StdDraw.filledCircle(255, 805, 15);//Québec 
+			  StdDraw.filledCircle(240, 185, 15);//Argentine 
+			  StdDraw.filledCircle(237, 307, 15);//Pérou
+			  StdDraw.filledCircle(284, 340, 20);//Brésil 
+			  StdDraw.filledCircle(223, 466, 20);//Vénézuela 
+			  StdDraw.filledCircle(530, 274, 20);//Afrique du Sud
+			  StdDraw.filledCircle(610, 281, 15);//Madagascar 
+			  StdDraw.filledCircle(530, 414, 20);//Congo 
+			  StdDraw.filledCircle(582, 480, 20);//Ethiopie
+			  StdDraw.filledCircle(450, 548, 20);//Sahara 
+			  StdDraw.filledCircle(530, 614, 20);//Egypte 
+			  StdDraw.filledCircle(461, 739, 15);//France
+			  StdDraw.filledCircle(850,222,20);//Perth
+			  StdDraw.filledCircle(930,229,18);//Sydney
+			  StdDraw.filledCircle(934,380,15);//Nouvelle Calédonie
+			  StdDraw.filledCircle(840,422,15);//Indonésie
+			  StdDraw.filledCircle(776,659,20);//Chine
+			  StdDraw.filledCircle(719,585,20);//Inde
+			  StdDraw.filledCircle(588,669,20);//Turquie
+			  StdDraw.filledCircle(907,681,15);//Japon
+			  StdDraw.filledCircle(784,740,20);//Mongolie
+			  StdDraw.filledCircle(776,800,20);//Irkusta
+			  StdDraw.filledCircle(885,874,20);//Kamchatka
+			  StdDraw.filledCircle(792,884,20);//Yakust
+			  StdDraw.filledCircle(712,877,20);//Sibérie
+			  StdDraw.filledCircle(654,844,20);//Ural
+			  StdDraw.filledCircle(662,741,20);//Afghanistan
+			  StdDraw.filledCircle(526,731,15);//Grèce
+			  StdDraw.filledCircle(431,800,15);//Angleterre
+			  StdDraw.filledCircle(412,862,15);//Islande
+			  StdDraw.filledCircle(504,867,15);//Scandinavie
+			  StdDraw.filledCircle(569,807,20);//Russie
+			  StdDraw.filledCircle(500,793,15);//Allemagne
+			  StdDraw.filledCircle(100,730,20);//West
+			  StdDraw.filledCircle(180,700,20);//East
+			  StdDraw.filledCircle(110,600,20);//Mexique
+			  StdDraw.filledCircle(360,930,20);//Groënland
+			  StdDraw.filledCircle(800,542,15);//Thaïlande
+			 
+			carte carte = new carte(19);
+			int x = 1 ;
+			int y = carte.getHabitant();
+			System.out.println(y);
+			
+			
+			while (y != 0) {
 				if (StdDraw.isMousePressed()) {
-					double i = StdDraw.mouseX();
-					double j = StdDraw.mouseY();
+					double k = StdDraw.mouseX();
+					double l = StdDraw.mouseY();
+					if (k < 810 && k > 790 && l < 552 && l > 532) {
+						y = y - 1;
+						x++;
+						StdDraw.setPenColor(178,190,181); 
+						StdDraw.filledCircle(800,542,15);
+						StdDraw.setPenColor(StdDraw.BLACK);
+						StdDraw.text(800, 542, Integer.toString(x));
+						StdDraw.pause(500);
+					}
+					if (k < 370 && k > 350 && l < 940 && l > 920) {
+						y = y - 1;	
+						x++;
+						StdDraw.setPenColor(178,190,181); 
+						StdDraw.filledCircle(360,930,20);
+						StdDraw.setPenColor(StdDraw.BLACK);
+						StdDraw.text(360, 930, Integer.toString(x));
+						StdDraw.pause(500);
+					}
 				}
 			}
 			break;
